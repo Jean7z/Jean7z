@@ -2,16 +2,15 @@
 
 # Jean7z
 
-**C++ / Android developer · GTA San Andreas mods**
-
-Crafting mods for GTA San Andreas with the Android Mod Loader.
+### C++ / Android developer · GTA San Andreas modding
 
 <br>
 
 ![C++](https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Android](https://img.shields.io/badge/-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![NDK](https://img.shields.io/badge/-Android%20NDK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![ARM](https://img.shields.io/badge/-ARM-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![Reverse Engineering](https://img.shields.io/badge/-Reverse%20Engineering-000000?style=for-the-badge&logo=terminal&logoColor=white)
+![NDK](https://img.shields.io/badge/-NDK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
 </div>
 
@@ -19,48 +18,59 @@ Crafting mods for GTA San Andreas with the Android Mod Loader.
 
 ## About
 
-Passionate about reverse engineering and game modding. I build C++ plugins for
-**GTA San Andreas** on Android, targeting both 32-bit and 64-bit (arm64) with
-the [Android Mod Loader](https://github.com/AndroidModLoader) SDK.
+I build C++ plugins for **GTA San Andreas on Android** with the
+[Android Mod Loader](https://github.com/AndroidModLoader) SDK. My workflow
+starts at the binary: symbols verified against the released `libGTASA.so`
+before a single byte is patched, and everything ships as a single-tree
+plugin targeting **arm64-v8a** and **armeabi-v7a** alike.
 
-- **HUD / gameplay mods** · crosshairs, targeting systems, weapon behavior
-- **Reverse engineering** · symbol verification against the released binary
-- **SDK contributions** · extending `aml-psdk` for the whole community
+- **Gameplay mods** — clothing/wardrobe unlocks, gym reworks, weapons
+  and targeting behavior.
+- **Reverse engineering** — SCM script decoding, symbol verification,
+  relocation-table-level hook placement.
+- **SDK work** — extending `aml-psdk` to expose more of the game engine's
+  classes to the whole modding community.
 
 ## Projects
 
 <table>
   <tr>
-    <td align="center">
+    <td>
+      <a href="https://github.com/Jean7z/gta-sa-freeclothes">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=gta-sa-freeclothes&theme=dark&hide_border=true"/>
+      </a>
+    </td>
+    <td>
       <a href="https://github.com/Jean7z/gta-sa-headshot-nospread">
-        <img width="160" src="https://img.shields.io/badge/Headshot%20No-%23646464?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=gta-sa-headshot-nospread&theme=dark&hide_border=true"/>
       </a>
-      <br/>Optimize headshot accuracy in SA
     </td>
-    <td align="center">
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/Jean7z/gta-sa-unlimited-gym">
-        <img width="160" src="https://img.shields.io/badge/Unlimited%20Gym-%23646464?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=gta-sa-unlimited-gym&theme=dark&hide_border=true"/>
       </a>
-      <br/>Train without limits
     </td>
-    <td align="center">
-      <a href="https://github.com/AndroidModLoader/aml-psdk">
-        <img width="160" src="https://img.shields.io/badge/amlsdk-%23646464?style=for-the-badge&logo=github&logoColor=white"/>
+    <td>
+      <a href="https://github.com/Jean7z/img-to-svg">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=img-to-svg&theme=dark&hide_border=true"/>
       </a>
-      <br/>Plugin SDK for the community
     </td>
   </tr>
 </table>
+
+<sub align="center">[aml-psdk](https://github.com/AndroidModLoader/aml-psdk) — plugin SDK for easier mod creation, [contributed](https://github.com/Jean7z/aml-psdk).</sub>
 
 ## Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Jean7z&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" width="420"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jean7z&layout=compact&theme=dark&hide_border=true&hide=Shell" width="330"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jean7z&layout=compact&theme=dark&hide_border=true&hide=Shell,C" width="330"/>
 </p>
 
 ---
 
 <div align="center">
-  <sub>Built with the <a href="https://github.com/AndroidModLoader/aml-psdk">Android Mod Loader SDK</a></sub>
+  <sub>GTA San Andreas is a trademark of Rockstar Games. Not affiliated.</sub>
 </div>
