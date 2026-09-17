@@ -33,41 +33,18 @@ plugin targeting **arm64-v8a** and **armeabi-v7a** alike.
 
 ## Projects
 
-<table>
-  <tr>
-    <td>
-      <a href="https://github.com/Jean7z/gta-sa-freeclothes">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=gta-sa-freeclothes&theme=dark&hide_border=true"/>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/Jean7z/gta-sa-headshot-nospread">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=gta-sa-headshot-nospread&theme=dark&hide_border=true"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/Jean7z/gta-sa-unlimited-gym">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=gta-sa-unlimited-gym&theme=dark&hide_border=true"/>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/Jean7z/img-to-svg">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jean7z&repo=img-to-svg&theme=dark&hide_border=true"/>
-      </a>
-    </td>
-  </tr>
-</table>
+### GTA San Andreas mods
 
-<sub align="center">[aml-psdk](https://github.com/AndroidModLoader/aml-psdk) — plugin SDK for easier mod creation, [contributed](https://github.com/Jean7z/aml-psdk).</sub>
+| Mod | What it does |
+|---|---|
+| [gta-sa-freeclothes](https://github.com/Jean7z/gta-sa-freeclothes) | Unlock all clothing — every outfit owned, free prices, all 7 shops in any safehouse wardrobe |
+| [gta-sa-headshot-nospread](https://github.com/Jean7z/gta-sa-headshot-nospread) | Headshot accuracy optimization + weapon spread removal |
+| [gta-sa-unlimited-gym](https://github.com/Jean7z/gta-sa-unlimited-gym) | Train without limits |
 
-## Stats
+### Tools
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jean7z&show_icons=true&theme=dark&hide_title=true&hide_border=true&count_private=true" width="420"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jean7z&layout=compact&theme=dark&hide_border=true&hide=Shell,C" width="330"/>
-</p>
+- [img-to-svg](https://github.com/Jean7z/img-to-svg)
+- [aml-psdk](https://github.com/Jean7z/aml-psdk) — plugin SDK for easier mod creation ([upstream](https://github.com/AndroidModLoader/aml-psdk))
 
 ---
 
