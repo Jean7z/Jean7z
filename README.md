@@ -4,7 +4,7 @@
 
 <hr>
 
-<h2 align="center">📦 Projects</h2>
+<h2 align="center">Projects</h2>
 
 | Project | Description | Status |
 |:--------|:------------|:-------|
@@ -15,7 +15,7 @@
 
 <hr>
 
-<h2 align="center">🛠️ Stack</h2>
+<h2 align="center">Stack</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&labelColor=22272e" alt="C++" />
@@ -26,10 +26,10 @@
 
 <hr>
 
-<h2 align="center">ℹ️ About</h2>
+<h2 align="center">About</h2>
 
 <p align="center">
-  C++ / Android developer crafting mods for <b>GTA San Andreas</b> with the
+  C++ / Android developer making mods for <b>GTA San Andreas</b> with the
   <a href="https://github.com/AndroidModLoader">Android Mod Loader</a> SDK.
 </p>
 
